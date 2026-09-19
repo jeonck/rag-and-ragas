@@ -1,0 +1,6 @@
+{"question": "육아휴직은 최대 며칠까지 쓸 수 있나요?", "ground_truth": "자녀 1명당 최대 1년(365일)입니다.", "reference_chunk_ids": ["hr-rules-2024#sec4.2"], "tags": ["single-hop", "policy"]}
+{"question": "육아휴직 쓰려면 어디에 뭘 내야 해요?", "ground_truth": "휴직신청서를 부서장 승인 후 인사팀에 제출하고, 개시 30일 전까지 접수해야 합니다.", "reference_chunk_ids": ["hr-rules-2024#sec4.3", "hr-guide#apply"], "tags": ["procedure", "colloquial"]}
+{"question": "육아휴직과 가족돌봄휴직의 기간 차이는?", "ground_truth": "육아휴직은 자녀 1명당 1년, 가족돌봄휴직은 연간 90일입니다.", "reference_chunk_ids": ["hr-rules-2024#sec4.2", "hr-rules-2024#sec4.6"], "tags": ["multi-hop", "comparison"]}
+{"question": "2023년 개정 전 육아휴직 기간은 얼마였나요?", "ground_truth": "코퍼스에 정보 없음 (현행 규정만 보유)", "reference_chunk_ids": [], "tags": ["unanswerable"]}
+{"question": "직급별 연차 일수 표 알려주세요", "ground_truth": "1~3년차 15일, 4~6년차 17일, 7년차 이상 20일입니다.", "reference_chunk_ids": ["hr-rules-2024#table-annual-leave"], "tags": ["table", "single-hop"]}
+{"question": "PL 승인 없이 휴직 가능한가요?", "ground_truth": "불가합니다. 부서장(PL) 승인이 선행되어야 합니다.", "reference_chunk_ids": ["hr-rules-2024#sec4.3"], "tags": ["abbreviation", "single-hop"]}
